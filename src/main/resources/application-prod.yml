@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+
+  devtools:
+    restart:
+      enabled: false #是否开启开发者工具（true/false）
+      additional-paths: src/main/java
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
